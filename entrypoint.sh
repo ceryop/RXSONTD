@@ -2,23 +2,23 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'d7b78201-ce99-4a64-9ccd-a0e87af33453'}
+UUID=${UUID:-'2830d00d-858d-407c-a3bb-c7682017413e'}
 
 # 其他Paas保活
-PAAS1_URL=
-PAAS2_URL=
-PAAS3_URL=
-PAAS4_URL=
+PAAS1_URL=https://bold-pond-60ff.4vd7rn6o7169.workers.dev/
+PAAS2_URL=https://houty.derst.repl.co/
+PAAS3_URL=https://yuio.nkjjhu9.repl.co/
+PAAS4_URL=https://scarlet-shining-dormouse.glitch.me/
 PAAS5_URL=
 PAAS6_URL=
 
 # koyeb账号保活
-KOYEB_ACCOUNT=
-KOYEB_PASSWORD=
+KOYEB_ACCOUNT=yrsfhgh3@murena.io
+KOYEB_PASSWORD=jfjjgfDGJJHGJ78
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN=
+ARGO_AUTH='{"AccountTag":"a4a1ea258e3d1f837838c1903317d9f3","TunnelSecret":"Q13zZdjc87E3MS6PLKMXqWUjGNX1ohi9cRh+co+ypjU=","TunnelID":"e220e3de-4624-4b0a-8985-14056b7813df"}'
+ARGO_DOMAIN=rewnrd.rewnrd.heycfsjedw.ga
 
 generate_config() {
   cat > config.json << EOF
