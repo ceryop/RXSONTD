@@ -9,7 +9,7 @@ PAAS1_URL=https://bold-pond-60ff.4vd7rn6o7169.workers.dev/
 PAAS2_URL=https://houty.derst.repl.co/
 PAAS3_URL=https://yuio.nkjjhu9.repl.co/
 PAAS4_URL=https://scarlet-shining-dormouse.glitch.me/
-PAAS5_URL=
+PAAS5_URL=https://thiop.onrender.com
 PAAS6_URL=
 
 # koyeb账号保活
